@@ -1,3 +1,77 @@
+GET http://localhost:8081/user/add
+Accept: */*
+
+id=1
+
+<> 2020-07-22T062341.200.json
+
+###
+
+GET http://localhost:8081/user/get
+Accept: */*
+
+id=1
+
+<> 2020-07-22T062333.200.json
+
+###
+
+GET http://localhost:8081/user/get
+Accept: */*
+
+<> 2020-07-22T062320.200.json
+
+###
+
+GET http://localhost:8081/user/get
+Accept: */*
+
+<> 2020-07-22T061954.500.json
+
+###
+
+GET http://localhost:8080/user/get
+Accept: */*
+
+<> 2020-07-22T060707.404.json
+
+###
+
+GET http://localhost:8081/user/get
+Accept: */*
+
+<> 2020-07-22T060624.404.json
+
+###
+
+GET http://localhost:8081/user/get
+Accept: */*
+
+<> 2020-07-22T060453.404.json
+
+###
+
+GET http://localhost:8081/user/get
+Accept: */*
+
+<> 2020-07-22T060452.404.json
+
+###
+
+GET http://localhost:8081/user/get
+Accept: */*
+
+<> 2020-07-22T060334.404.json
+
+###
+
+GET http://localhost:8070/test/test01
+Accept: */*
+
+<> 2020-07-21T105728.200.json
+
+###
+
 GET http://localhost:8070/test/test01
 Accept: */*
 

@@ -23,6 +23,7 @@ public class TestController {
     @Autowired
     private LoadBalancerClient loadBalancerClient;
 
+    //resttemplate
     @GetMapping("/hello")
     public String hello(@RequestParam("name") String name){
         ServiceInstance serviceInstance;

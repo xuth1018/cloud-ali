@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-common" />
-        <module name="nacos-client" />
         <module name="nacos-config" />
         <module name="nacos-consumer" />
+        <module name="nacos-client" />
+        <module name="api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api" target="1.8" />
       <module name="cloud-ali" target="1.8" />
       <module name="cloud-common" target="1.8" />
       <module name="nacos-client" target="1.8" />
@@ -23,6 +25,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api" options="-parameters -nowarn" />
       <module name="cloud-common" options="-parameters -nowarn" />
       <module name="nacos-client" options="-parameters -nowarn" />
       <module name="nacos-client2" options="-parameters -nowarn" />

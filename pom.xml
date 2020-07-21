@@ -19,6 +19,7 @@
         <module>cloud-common</module>
         <module>nacos-consumer</module>
         <module>nacos-config</module>
+        <module>api</module>
     </modules>
 
     <properties>

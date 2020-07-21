@@ -11,4 +11,12 @@ spring:
         service: ${spring.application.name}
         metadata:
           port: ${server.port}
-        namespace: #命名空间
+        namespace: #
+dubbo:
+  protocol:
+    port: -1  #协议端口 -1表示自增端口 从20880开始
+    name: dubbo  #协议名称
+  registry:
+    address:  spring-cloud://127.0.0.1:8848 #dubbo服务注册中心
+  cloud:
+    subscribed-services: nacos-client-8080 #设置订阅的应用列表 默认*所有
