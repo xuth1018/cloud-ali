@@ -1,0 +1,4 @@
+{
+  "payTimeoutSeconds": 120,
+  "createFrequencySeconds": 60
+}

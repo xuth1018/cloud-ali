@@ -1,0 +1,214 @@
+GET http://localhost:8070/test/test01
+Accept: */*
+
+<> 2020-07-21T051337.200.json
+
+###
+
+GET http://localhost:8070/test/test02
+Accept: */*
+
+<> 2020-07-21T051331.200.json
+
+###
+
+GET http://localhost:8070/test/test02
+Accept: */*
+
+<> 2020-07-21T051329.200.json
+
+###
+
+GET http://localhost:8070/test/test01
+Accept: */*
+
+<> 2020-07-21T051321.200.json
+
+###
+
+GET http://localhost:8070/test/test01
+Accept: */*
+
+<> 2020-07-21T050420.200.json
+
+###
+
+GET http://localhost:8070/test/test01
+Accept: */*
+
+<> 2020-07-21T050301.200.json
+
+###
+
+GET http://localhost:8070/test/test
+Accept: */*
+
+<> 2020-07-21T050246.404.json
+
+###
+
+GET http://localhost:8080/actuator/health
+Accept: */*
+Content-Type: application/json
+
+<> 2020-07-21T034822.200.json
+
+###
+
+GET http://localhost:8080/actuator/info
+Accept: */*
+Content-Type: application/json
+
+<> 2020-07-21T034804.200.json
+
+###
+
+GET http://localhost:8080/actuor/info
+Accept: */*
+Content-Type: application/json
+
+<> 2020-07-21T034752.404.json
+
+###
+
+GET http://localhost:8080/hello/hello/sfas
+Accept: */*
+Content-Type: application/json
+
+<> 2020-07-21T034730.200.txt
+
+###
+
+GET http://localhost:8081/hello/hello?name=124
+Accept: */*
+
+<> 2020-07-21T031551.200.txt
+
+###
+
+GET http://localhost:8081/hello/hello?name=124
+Accept: */*
+
+<> 2020-07-21T031543.500.json
+
+###
+
+GET http://localhost:8081/hello/hello?name=124
+Accept: */*
+
+<> 2020-07-21T031248.200.txt
+
+###
+
+GET http://localhost:8081/hello/hello?name=124
+Accept: */*
+
+<> 2020-07-21T031123.500.json
+
+###
+
+GET http://localhost:8081/hello/hello?name=124
+Accept: */*
+
+<> 2020-07-21T030948.500.json
+
+###
+
+GET http://localhost:8081/hello/hello?name=124
+Accept: */*
+
+<> 2020-07-21T030852.500.json
+
+###
+
+GET http://localhost:8081/hello/hello?name=124
+Accept: */*
+
+<> 2020-07-21T030557.500.json
+
+###
+
+GET http://localhost:8081/hello/hello?name=124
+Accept: */*
+
+<> 2020-07-21T030441.500.json
+
+###
+
+GET http://localhost:8081/hello/hello
+Accept: */*
+
+name=124
+
+<> 2020-07-21T030415.500.json
+
+###
+
+GET http://localhost:8081/hello
+Accept: */*
+Content-Type: application/json
+
+{
+"name": "fsa"
+}
+
+<> 2020-07-21T030237.500.json
+
+###
+
+GET http://localhost:8081/hello
+Accept: */*
+
+name=1241
+
+<> 2020-07-21T030149.500.json
+
+###
+
+GET http://localhost:8080/hello
+Accept: */*
+
+name=1241
+
+<> 2020-07-21T030140.404.json
+
+###
+
+GET http://localhost:8080/hello/hello/sfas
+Accept: */*
+Content-Type: application/json
+
+<> 2020-07-21T030113.200.txt
+
+###
+
+GET http://localhost:8081/hello
+Accept: */*
+Content-Type: application/json
+
+<> 2020-07-21T030043.500.json
+
+###
+
+GET http://localhost:8081/hello
+Accept: */*
+Content-Type: application/json
+
+<> 2020-07-21T030022.500.json
+
+###
+
+GET localhost:8081/hello
+Accept: */*
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/hello/hello/sfas
+Accept: */*
+Content-Type: application/json
+
+<> 2020-07-21T104755.200.txt
+
+###
+

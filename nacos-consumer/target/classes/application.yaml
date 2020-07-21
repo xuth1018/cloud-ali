@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: nacos-consumer-8081
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        service: ${spring.application.name}
+        metadata:
+          port: ${server.port}
+        namespace: #命名空间
