@@ -12,6 +12,11 @@ spring:
         metadata:
           port: ${server.port}
         namespace: #
+    sentinel:
+      enabled: true
+      eager: true #懒加载
+      transport:
+        dashboard: 127.0.0.1:7070 #控制台
 dubbo:
   protocol:
     port: -1  #协议端口 -1表示自增端口 从20880开始

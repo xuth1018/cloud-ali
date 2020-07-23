@@ -1,2 +1,3 @@
 com/xx/cloud/NacosClientApp.class
 com/xx/cloud/controller/HelloController.class
+com/xx/cloud/service/impl/UserServiceImpl.class
