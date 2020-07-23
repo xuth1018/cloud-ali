@@ -15,6 +15,12 @@ spring:
       eager: true #懒加载
       transport:
         dashboard: 127.0.0.1:7070 #控制台
+      #  port: 8719
+  # ElasticSearch 分布式搜索引擎
+  elasticsearch:
+    rest:
+      uris: 127.0.0.1:9200
+
 
 management:
   endpoints:
@@ -47,6 +53,5 @@ dubbo:
   # Spring Cloud Alibaba Dubbo 专属配置项，对应 DubboCloudProperties 类
   cloud:
     subscribed-services: '' # 设置订阅的应用列表，默认为 * 订阅所有应用
-
 
 

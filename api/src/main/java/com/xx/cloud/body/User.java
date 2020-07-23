@@ -4,6 +4,7 @@ import org.hibernate.validator.constraints.Length;
 
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
+import java.util.Arrays;
 
 public class User implements Serializable {
 
@@ -47,4 +48,12 @@ public class User implements Serializable {
     public void setGender(Integer gender) {
         this.gender = gender;
     }
+
+    public static void main(String[] args) {
+        Class clz = User.class;
+        System.out.println(clz.getClassLoader());
+        System.out.println(Thread.currentThread().getContextClassLoader());
+        System.out.println(ClassLoader.getSystemClassLoader());
+    }
+
 }
