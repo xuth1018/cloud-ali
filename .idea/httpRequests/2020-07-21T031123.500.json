@@ -1,7 +1,0 @@
-{
-  "timestamp": "2020-07-21T07:11:23.224+0000",
-  "status": 500,
-  "error": "Internal Server Error",
-  "message": "404 : [{\"timestamp\":\"2020-07-21T07:10:28.945+0000\",\"status\":404,\"error\":\"Not Found\",\"message\":\"No message available\",\"path\":\"/hello/hello124\"}]",
-  "path": "/hello/hello"
-}
