@@ -10,16 +10,28 @@ spring:
       discovery:
         server-addr: localhost:8848 # Nacos服务地址
         service: ${spring.application.name} #注册到Nacos的服务名 默认应用名]
+
+
     sentinel:
       enabled: true
       eager: true #懒加载
       transport:
-        dashboard: 127.0.0.1:7070 #控制台
+        dashboard: localhost:7070 #控制台
       #  port: 8719
+      filter:
+        url-patterns: /**
+
+
   # ElasticSearch 分布式搜索引擎
   elasticsearch:
     rest:
-      uris: 127.0.0.1:9200
+      uris: localhost:9200
+      connection-timeout: 1s
+      read-timeout: 30s
+  data:
+    elasticsearch:
+      cluster-name: docker-cluster
+      cluster-nodes: 127.0.0.1:9300
 
 
 management:

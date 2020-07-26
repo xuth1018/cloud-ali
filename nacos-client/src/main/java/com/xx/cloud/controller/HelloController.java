@@ -25,10 +25,7 @@ public class HelloController {
     @Autowired
     private ProductMapper productMapper;
 
-    @Autowired
-    private ElasticsearchRestTemplate elasticsearchRestTemplate;
-
-    private AtomicInteger num = new AtomicInteger(0);
+    private AtomicInteger num = new AtomicInteger(50);
 
     @GetMapping("/hello/{name}")
     public String hello(@PathVariable String name){

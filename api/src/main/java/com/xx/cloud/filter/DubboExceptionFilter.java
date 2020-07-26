@@ -1,7 +1,6 @@
 package com.xx.cloud.filter;
 
 import com.xx.cloud.exception.ServiceException;
-import com.xx.cloud.exception.ServiceExceptionEnum;
 import org.apache.dubbo.common.constants.CommonConstants;
 import org.apache.dubbo.common.extension.Activate;
 import org.apache.dubbo.rpc.Invocation;
@@ -50,7 +49,7 @@ public class DubboExceptionFilter extends ListenableFilter {
                 }
                 stringBuilder.append(constraintViolation.getMessage());
             }
-            return new ServiceException(ServiceExceptionEnum.MISSING_REQUEST_PARAM_ERROR,stringBuilder.toString());
+            return new ServiceException(com.xx.cloud.exception.ServiceExceptionEnum.MISSING_REQUEST_PARAM_ERROR,stringBuilder.toString());
         }
     }
 

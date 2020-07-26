@@ -20,7 +20,6 @@
         <module>nacos-consumer</module>
         <module>nacos-config</module>
         <module>api</module>
-        <module>sentinel</module>
     </modules>
 
     <properties>
@@ -40,6 +39,15 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!-- sentinel控制台 -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-apache-dubbo-adapter</artifactId>
         </dependency>
     </dependencies>
 
