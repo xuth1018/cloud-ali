@@ -1,0 +1,17 @@
+server:
+  port: 8070
+
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirm-type: correlated #是否确认
+    publisher-returns: true # 是否消息回调
+    template:
+      mandatory: true #生产者找不到queue存放消息时 回调方法
+    listener:
+      simple:
+        concurrency: 2 #消息监听线程数
+        max-concurrency: 2
